@@ -40,7 +40,6 @@ const formatNumber = (number) => {
 // Email Content Component -----------------------------------
 function EmailContent({ email }) {
 	const [isCollapsed, setIsCollapsed] = useState(true);
-	// ------------------------
 	const handleCollapse = () => {
 		setIsCollapsed(!isCollapsed);
 	};
